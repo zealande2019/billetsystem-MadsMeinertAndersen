@@ -5,4 +5,12 @@
     <RootNamespace>BilletLibary2._0</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\madsm\OneDrive\Dokumenter\GitHub\billetsystem-MadsMeinertAndersen\BilletLibary2.0\BilletLibary2.0\BilletLibary2.0.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\madsm\OneDrive\Dokumenter\GitHub\billetsystem-MadsMeinertAndersen\BilletLibary2.0\BilletLibary2.0\BilletLibary2.0.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
