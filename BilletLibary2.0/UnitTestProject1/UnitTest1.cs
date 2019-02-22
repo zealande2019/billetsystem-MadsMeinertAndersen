@@ -1,6 +1,7 @@
 using System;
 using BilletLibary2._0;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using StoreBaeltBilletLibrary;
 
 namespace UnitTestProject1
 {
@@ -98,6 +99,35 @@ namespace UnitTestProject1
 
             //Assert
             Assert.AreEqual(125 * 0.95, pris, 0.01);
+        }
+        [TestMethod]
+        public void MedWeekendRabatOgBrobizz()
+        {
+            //Arrange
+            Bil testBil = new Bil("testBil", new DateTime(2019, 2, 23));
+
+            //Act
+            testBil.Brobizz = true;
+            WeekendsRabat weekend = new WeekendsRabat();
+
+            double pris = weekend.WeekendRabat(testBil);
+
+            //Assert
+            Assert.AreEqual(240 * 0.8 * 0.95, pris, 0.01);
+        }
+        [TestMethod]
+        public void MedWeekendRabatUdenBrobizz()
+        {
+            //Arrange
+            Bil testBil = new Bil("testBil", new DateTime(2019, 2, 23));
+
+            //Act
+            WeekendsRabat weekend = new WeekendsRabat();
+
+            double pris = weekend.WeekendRabat(testBil);
+
+            //Assert
+            Assert.AreEqual(240 * 0.8, pris, 0.01);
         }
     }
 }
