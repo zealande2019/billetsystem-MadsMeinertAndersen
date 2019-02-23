@@ -13,9 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BilletLibary2.0\BilletLibary2.0.csproj" />
-    <ProjectReference Include="..\OeresundLibary\OeresundLibary.csproj" />
-    <ProjectReference Include="..\StoreBaeltBilletLibrary\StoreBaeltBilletLibrary.csproj" />
+    <ProjectReference Include="..\Øresund\Øresund.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BilletLibary2.0">
+      <HintPath>..\..\..\..\BilletLibary\BilletLibary2.0.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

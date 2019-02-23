@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BilletLibary2.0\BilletLibary2.0.csproj" />
+    <ProjectReference Include="..\StoreBaeltBilletLibrary\StoreBaeltBilletLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BilletLibary2.0">
+      <HintPath>..\..\..\..\BilletLibary\BilletLibary2.0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

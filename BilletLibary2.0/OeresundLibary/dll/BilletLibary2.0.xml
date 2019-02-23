@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibary2.0</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLibary2._0.Bil.#ctor(System.String,System.DateTime)">
+            <summary>
+            Alle biler skal have en nummerplade og dato
+            </summary>
+            <param name="nummerPlade">Nummerplade må ikke være mere ind 7 tegn</param>
+            <param name="dato">Dato</param>
+        </member>
+        <member name="M:BilletLibary2._0.Bil.Pris">
+            <summary>
+            Billetpris for en bil
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibary2._0.Bil.KøretøjsType">
+            <summary>
+            Køretøjstype
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BilletLibary2._0.Køretøj.Brobizz">
+            <summary>
+            En bool for at se om man har en Brobizz (true eller false)
+            </summary>
+        </member>
+        <member name="M:BilletLibary2._0.Køretøj.#ctor(System.String,System.DateTime)">
+            <summary>
+            Alle køretøjer skal have en nummerplade og en dato
+            </summary>
+            <param name="nummerplade">En nummerplade</param>
+            <param name="dato">En dato</param>
+        </member>
+        <member name="P:BilletLibary2._0.Køretøj.Nummerplade">
+            <summary>
+            Nummerpladen må ikke være mere ind 7 tegn
+            </summary>
+        </member>
+        <member name="M:BilletLibary2._0.Køretøj.Pris">
+            <summary>
+            Pris for billet
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibary2._0.Køretøj.KøretøjsType">
+            <summary>
+            Hvilken slags køretøj vi har med at gøre
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibary2._0.MC.#ctor(System.String,System.DateTime)">
+            <summary>
+            Alle MCer skal have en nummerplade og dato
+            </summary>
+            <param name="nummerPlade">Nummerpladen må ikke være mere ind 7 tegn</param>
+            <param name="dato">Dato</param>
+        </member>
+        <member name="M:BilletLibary2._0.MC.Pris">
+            <summary>
+            Billetpris for en MC
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibary2._0.MC.KøretøjsType">
+            <summary>
+            Køretøjstype
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
