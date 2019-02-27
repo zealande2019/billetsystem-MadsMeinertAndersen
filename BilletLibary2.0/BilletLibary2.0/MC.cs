@@ -14,8 +14,6 @@ namespace BilletLibary2._0
         public MC(string nummerPlade, DateTime dato)
             : base(nummerPlade, dato)
         {
-            nummerPlade = Nummerplade;
-            Dato = dato;
         }
 
         /// <summary>

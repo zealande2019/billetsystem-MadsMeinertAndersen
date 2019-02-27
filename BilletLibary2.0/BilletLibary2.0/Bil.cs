@@ -16,11 +16,6 @@ namespace BilletLibary2._0
         public Bil(string nummerPlade, DateTime dato)
             : base(nummerPlade, dato)
         {
-            nummerPlade = Nummerplade;
-
-            Dato = dato;
-            
-
         }
 
         /// <summary>
